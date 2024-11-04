@@ -33,7 +33,7 @@ app.post("/command", (req, res) => {
   const game = req.body.game;
   const user = req.body.user;
 
-  const authKey = req.headers["authorization"];
+  const authKey = req.headers["Authorization"];
 
   const ip = req.ip;
 
